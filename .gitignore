@@ -1,0 +1,41 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# EnvHunter local configuration, tokens, and sqlite state
+.config/
+.envhunter/
+token
+*.token
+*.db
+*.sqlite
+*.sqlite3
+
+# Reports output directory
+reports/
+
+# Logs and temporary directories
+logs/
+cache/
+tmp/
+temp/
+scratch/
+
+# Environment files - NEVER commit real credentials
+.env
+.env.*
+!.env.example
+
